@@ -5,6 +5,11 @@ header {
     color: #F4F0E7;
 }
 
+#logo {
+    width: 100px;
+    height: auto;
+    display:inline-block;
+}
 #thinking {
     background-color:#F4F0E7;
     color: #111319;
