@@ -2,12 +2,14 @@
 
 header {
     background-color:#111319;
-    color: F4F0E7
+    color: #F4F0E7;
 }
+
 #thinking {
     background-color:#F4F0E7;
     color: #111319;
 }
+
 .intro-texts {
     color: #B9AC98;
 }
