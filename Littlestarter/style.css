@@ -10,6 +10,11 @@ header {
     height: auto;
     float: left;
 }
+
+#independant{
+    text-align: right;
+}
+
 #thinking {
     background-color:#F4F0E7;
     color: #111319;
