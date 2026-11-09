@@ -17,13 +17,18 @@ nav {
     float: left;
 }
 
-#approach, footer {
+#approach{
    background-color:#111319;
     color: #F4F0E7;
     padding: 3%;
     margin: 0, auto;
 }
-
+footer {
+    background-color:#111319;
+    color: #F4F0E7;
+    padding: 1%;
+    margin: 0, auto;
+}
 #thinking {
     background-color:#F4F0E7;
     color: #111319;
