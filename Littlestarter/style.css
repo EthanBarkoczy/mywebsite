@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #F4F0E7;
     color: #111319;
-    font-family: Georgia, serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
@@ -10,48 +10,53 @@ header,
 footer {
     background-color: #111319;
     color: #F4F0E7;
-    padding: 20px;
+    padding: 16px 24px;
     text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #3F3B36;
 }
 
 .logo {
     width: 100%;
-    max-width: 220px;
+    max-width: 155px;
     height: auto;
 }
 
 .site-nav {
     list-style-type: none;
-    margin: 12px 0 0;
+    margin: 4px 0 0;
     padding: 0;
 }
 
 .site-nav li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 4px;
 }
 
 .site-nav a {
     color: #F4F0E7;
     display: inline-block;
-    padding: 6px;
+    padding: 10px;
 }
 
 .hero,
 .content-section {
     padding: 48px 24px;
-    text-align: center;
 }
 
 .hero {
     background-color: #111319;
     color: #F4F0E7;
+    text-align: center;
 }
 
 .hero h1,
 .content-section h2 {
-    max-width: 640px;
+    max-width: 600px;
     margin: 0 auto 16px;
+    font-family: Georgia, serif;
     line-height: 1.2;
 }
 
@@ -60,26 +65,61 @@ footer {
 }
 
 .hero p,
-.content-section p {
-    max-width: 520px;
+.content-section p,
+.content-section h3 {
+    max-width: 600px;
     margin: 0 auto 16px;
 }
 
+.content-section h3 {
+    margin: 24px auto 4px;
+}
+
 .eyebrow {
-    color: #B9AC98;
-    font-family: Arial, sans-serif;
-    font-size: 0.85rem;
+    color: #D8C6AB;
+    font-size: 0.9rem;
     letter-spacing: 1px;
 }
 
 .button-link {
     display: inline-block;
+    margin-top: 8px;
     background-color: #F4F0E7;
     color: #111319;
     border-radius: 5px;
-    padding: 10px 18px;
+    padding: 12px 18px;
+    font-weight: bold;
 }
 
 .muted-section {
     background-color: #E9E1D4;
+}
+
+.project-preview {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    background-color: #F4F0E7;
+    border: 1px solid #9A8871;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.project-preview .project-status {
+    margin: 0;
+    padding: 48px 16px;
+    text-align: center;
+}
+
+.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-link {
+    display: block;
+    max-width: 600px;
+    margin: 24px auto 0;
+    color: #111319;
+    font-weight: bold;
 }
