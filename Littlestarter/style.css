@@ -1,52 +1,85 @@
-* {
+body {
+    margin: 0;
+    background-color: #F4F0E7;
+    color: #111319;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: #111319;
+    color: #F4F0E7;
+    padding: 20px;
     text-align: center;
 }
 
-header {
-    background-color:#111319;
-    color: #F4F0E7;
-    padding: 3%;
-    margin: 0 auto;
-    Text-align: center;
-}
-
-ul {
-    list-style-type: none;
-    line-height: 2;
-}
-
-a {
-    text-decoration: none;
-    background-color: beige;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#logo {
-    width: 40%;  
+.logo {
+    width: 100%;
+    max-width: 220px;
     height: auto;
-    margin-bottom: 15px;
 }
 
-#approach{
-   background-color:#111319;
-    color: #F4F0E7;
-    padding: 3%;
-    margin: 0, auto;
-}
-footer {
-    background-color:#111319;
-    color: #F4F0E7;
-    padding: 1%;
-    margin: 0, auto;
-}
-#thinking {
-    background-color:#F4F0E7;
-    color: #111319;
-    padding: 3%;
-    margin: 0, auto;
+.site-nav {
+    list-style-type: none;
+    margin: 12px 0 0;
+    padding: 0;
 }
 
-.intro-texts {
+.site-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.site-nav a {
+    color: #F4F0E7;
+    display: inline-block;
+    padding: 6px;
+}
+
+.hero,
+.content-section {
+    padding: 48px 24px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #111319;
+    color: #F4F0E7;
+}
+
+.hero h1,
+.content-section h2 {
+    max-width: 640px;
+    margin: 0 auto 16px;
+    line-height: 1.2;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p,
+.content-section p {
+    max-width: 520px;
+    margin: 0 auto 16px;
+}
+
+.eyebrow {
     color: #B9AC98;
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #F4F0E7;
+    color: #111319;
+    border-radius: 5px;
+    padding: 10px 18px;
+}
+
+.muted-section {
+    background-color: #E9E1D4;
 }
