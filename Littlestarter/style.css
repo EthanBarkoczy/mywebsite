@@ -45,10 +45,10 @@ header {
 .content-section {
     padding: 48px 24px;
 }
-footer a {
-    color: #F4F0E7;
-    text-decoration: none;
-    
+footer img {
+    width: 30px;
+    height: 30px;
+
 }
 .hero {
     background-color: #111319;
