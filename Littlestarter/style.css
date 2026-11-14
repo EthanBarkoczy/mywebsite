@@ -19,8 +19,8 @@ header {
 }
 
 .logo {
-    width: 100%;
-    max-width: 155px;
+    width: 90%;
+    max-width: 700px;
     height: auto;
 }
 
@@ -45,7 +45,11 @@ header {
 .content-section {
     padding: 48px 24px;
 }
-
+footer a {
+    color: #F4F0E7;
+    text-decoration: none;
+    
+}
 .hero {
     background-color: #111319;
     color: #F4F0E7;
