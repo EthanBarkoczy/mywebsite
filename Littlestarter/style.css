@@ -1,3 +1,5 @@
+/* type selectors */
+
 body {
     margin: 0;
     background-color: #F4F0E7;
@@ -18,6 +20,8 @@ header {
     border-bottom: 1px solid #3F3B36;
 }
 
+/* class selectors */
+
 .logo {
     width: 90%;
     max-width: 700px;
@@ -34,11 +38,11 @@ header {
     display: inline-block;
     margin: 0 4px;
 }
-
 .site-nav a {
     color: #F4F0E7;
     display: inline-block;
     padding: 10px;
+    text-decoration: none;
 }
 
 .hero,
@@ -126,4 +130,26 @@ footer img {
     margin: 24px auto 0;
     color: #111319;
     font-weight: bold;
+}
+
+
+
+/* psuedo-classes */
+
+
+/* this adds a background when someone tabs and a link recieves focus */
+.site-nav a:focus {
+    background-color: #af7b3c;
+    text-decoration: none;
+}
+
+/* this adds an underline when someone hovers over a link */
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+.on-hover:hover {
+    background-color: #d6bd9d;
+    border-radius: 6px;
+    border:#fdfdfd solid 1px;
 }
