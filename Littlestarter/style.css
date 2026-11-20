@@ -153,14 +153,21 @@ footer img {
 }
 
 #contact-section {
-    display: inline-block;
-    margin-left: 42%;
-    text-align:center;
-    margin-top: 2%;
-    border: solid #111319 1px;
-    margin-right:1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
+#email-info{
+   box-sizing: border-box;
+  width: 240px;
+  max-width: 100%;
+  padding: 20px;
+  border: 1px solid #d4cbbd;
+  border-radius: 8px;
+  text-align: center;
+}
 
 #main-contact #schedule-meeting {
     display: block;
