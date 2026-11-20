@@ -16,6 +16,11 @@ footer {
     text-align: center;
 }
 
+footer a{
+    color: #F4F0E7;
+
+}
+
 header {
     border-bottom: 1px solid #3F3B36;
 }
@@ -132,14 +137,30 @@ footer img {
     font-weight: bold;
 }
 
-#footer {
-    font-size: 0.9rem;
-    text-align: left;
+.contact-box {
+    box-sizing: border-box;
+    width: 240px;
+    max-width: 100%;
+    padding: 20px;
+    border: 3px solid #111319;
+    border-radius: 8px;
+    text-align: center;
+    overflow-wrap: anywhere;
 }
 
-#footer div {
-    text-decoration: none;
-    text-align: right;
+.contact-box h2 {
+    margin-bottom: 8px;
+}
+
+.contact-box p {
+    margin-bottom: 0;
+}
+
+
+/* id selectors */
+
+#main-contact #schedule-meeting {
+    display: block;
 }
 
 #back-to-top {
@@ -159,27 +180,14 @@ footer img {
     gap: 16px;
 }
 
-.contact-box {
-    box-sizing: border-box;
-    width: 240px;
-    max-width: 100%;
-    padding: 20px;
-    border: 1px solid #d4cbbd;
-    border-radius: 8px;
-    text-align: center;
-    overflow-wrap: anywhere;
+#footer {
+    font-size: 0.9rem;
+    text-align: left;
 }
 
-.contact-box h2 {
-    margin-bottom: 8px;
-}
-
-.contact-box p {
-    margin-bottom: 0;
-}
-
-#main-contact #schedule-meeting {
-    display: block;
+#footer div {
+    text-decoration: none;
+    text-align: right;
 }
 
 /* psuedo-classes */
