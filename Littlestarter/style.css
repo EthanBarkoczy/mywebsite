@@ -153,20 +153,29 @@ footer img {
 }
 
 #contact-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
 }
 
-#email-info{
-   box-sizing: border-box;
-  width: 240px;
-  max-width: 100%;
-  padding: 20px;
-  border: 1px solid #d4cbbd;
-  border-radius: 8px;
-  text-align: center;
+.contact-box {
+    box-sizing: border-box;
+    width: 240px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #d4cbbd;
+    border-radius: 8px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.contact-box h2 {
+    margin-bottom: 8px;
+}
+
+.contact-box p {
+    margin-bottom: 0;
 }
 
 #main-contact #schedule-meeting {
